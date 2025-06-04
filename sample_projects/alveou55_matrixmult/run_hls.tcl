@@ -9,7 +9,7 @@ set_part {xcu55c-fsvh2892-2L-e}
 create_clock -period 3.5
 
 # just check that the C++ compiles
-#csim_design -argv "2 6"
+csim_design -argv "2 6"
 
 # synthethize the algorithm
 csynth_design
